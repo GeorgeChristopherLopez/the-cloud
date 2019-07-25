@@ -1,0 +1,127 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  min-height: 100%;
+  min-width: 100%;
+}
+header{
+  background: linear-gradient(to top, #5BC0DE, #5BC0DE);
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#logo-div{
+  font-size: 1.4em;
+  padding: 1em;
+  padding-top: 1.4em;
+  text-align: center;
+}
+
+#logo-image{
+  padding: 0em;
+}
+
+#navbar-div{
+  font-size: 1.25em;
+ padding: 1.2em;
+ }
+
+.openbtn{
+  text-align: center;
+  float: right;
+  font-size: 1.5em;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#welcome{
+text-align: center;
+  background-color: grey;
+  background: linear-gradient(
+      rgba(0,0,0, 0.5), 
+      rgba(0,0,0, 0.4)
+    ),url("https://images.pexels.com/photos/319968/pexels-photo-319968.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  color: white;
+  text-align:center;
+
+  padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+#welcome h1, #welcome h4{
+  margin: 0;
+  padding-bottom: 50px;
+
+}
+#welcome hr{
+  width: 66.66% !important;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+#services{
+  text-align: center;
+
+}
+
+#clients{
+  text-align: center;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
